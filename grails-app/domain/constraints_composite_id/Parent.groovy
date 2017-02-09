@@ -1,6 +1,6 @@
 package constraints_composite_id
 
-class Parent {
+class Parent implements Serializable {
 
     String code
     String desc

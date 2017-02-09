@@ -1,6 +1,6 @@
 package constraints_composite_id
 
-class Child {
+class Child implements Serializable {
     String name
 
     static belongsTo = [parent: Parent]
